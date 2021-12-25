@@ -20,7 +20,8 @@ namespace QLbanhang
 
         private void kháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmKhachHang frm = new frmKhachHang();
+            frm.Show();
         }
 
   
@@ -56,6 +57,13 @@ namespace QLbanhang
         {
             frmHangHoa frm = new frmHangHoa();
             frm.ShowDialog();
+        }
+
+        private void mnuNhanVien_Click(object sender, EventArgs e)
+        {
+            frmDMNhanvien frmDMNhanvien = new frmDMNhanvien();
+            frmDMNhanvien.MdiParent = this;
+            frmDMNhanvien.Show();
         }
     }
 }

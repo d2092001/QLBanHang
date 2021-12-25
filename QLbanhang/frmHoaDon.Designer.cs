@@ -48,7 +48,7 @@
             this.txtTenKH = new System.Windows.Forms.TextBox();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.txtMaNhanVien = new System.Windows.Forms.ComboBox();
+            this.txtManv = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.mtbDienThoai = new System.Windows.Forms.MaskedTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -165,7 +165,7 @@
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.mtbDienThoai);
             this.groupBox1.Controls.Add(this.comboBox3);
-            this.groupBox1.Controls.Add(this.txtMaNhanVien);
+            this.groupBox1.Controls.Add(this.txtManv);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.txtDiaChi);
             this.groupBox1.Controls.Add(this.txtTenKH);
@@ -309,13 +309,13 @@
             this.button1.Text = "...";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // txtMaNhanVien
+            // txtManv
             // 
-            this.txtMaNhanVien.FormattingEnabled = true;
-            this.txtMaNhanVien.Location = new System.Drawing.Point(88, 75);
-            this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(216, 21);
-            this.txtMaNhanVien.TabIndex = 15;
+            this.txtManv.FormattingEnabled = true;
+            this.txtManv.Location = new System.Drawing.Point(88, 75);
+            this.txtManv.Name = "txtManv";
+            this.txtManv.Size = new System.Drawing.Size(216, 21);
+            this.txtManv.TabIndex = 15;
             // 
             // comboBox3
             // 
@@ -646,7 +646,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox txtMaNhanVien;
+        private System.Windows.Forms.ComboBox txtManv;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.TextBox txtTenKH;

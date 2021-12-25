@@ -74,5 +74,27 @@ namespace QLbanhang.Class
                 return true;
             else return false;
         }
+
+        public static void FillCombo(string sql, ComboBox cbo, string ma, string ten)
+        {
+            SqlDataAdapter dap = new SqlDataAdapter(sql, con);
+            DataTable table = new DataTable();
+            dap.Fill(table);
+            cbo.DataSource = table;
+            cbo.ValueMember = ma; //Trường giá trị
+            cbo.DisplayMember = ten; //Trường hiển thị
+        }
+
+        internal static string GetFieldValues(string sql)
+        {
+            string ma = "";
+            SqlCommand cmd = new SqlCommand(sql, con);
+            SqlDataReader reader;
+            reader = cmd.ExecuteReader();
+            while (reader.Read())
+                ma = reader.GetValue(0).ToString();
+            reader.Close();
+            return ma;
+        }
     }
 }

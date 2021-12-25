@@ -45,7 +45,7 @@
             this.txtMaHD = new System.Windows.Forms.TextBox();
             this.txtNam = new System.Windows.Forms.TextBox();
             this.txtThang = new System.Windows.Forms.TextBox();
-            this.txtMaNhanVien = new System.Windows.Forms.TextBox();
+            this.txtManv = new System.Windows.Forms.TextBox();
             this.txtMaKH = new System.Windows.Forms.TextBox();
             this.txTongTien = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
@@ -115,7 +115,7 @@
             // 
             this.panel3.Controls.Add(this.txTongTien);
             this.panel3.Controls.Add(this.txtMaKH);
-            this.panel3.Controls.Add(this.txtMaNhanVien);
+            this.panel3.Controls.Add(this.txtManv);
             this.panel3.Controls.Add(this.txtThang);
             this.panel3.Controls.Add(this.txtNam);
             this.panel3.Controls.Add(this.txtMaHD);
@@ -223,12 +223,12 @@
             this.txtThang.Size = new System.Drawing.Size(53, 20);
             this.txtThang.TabIndex = 12;
             // 
-            // txtMaNhanVien
+            // txtManv
             // 
-            this.txtMaNhanVien.Location = new System.Drawing.Point(90, 93);
-            this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(199, 20);
-            this.txtMaNhanVien.TabIndex = 13;
+            this.txtManv.Location = new System.Drawing.Point(90, 93);
+            this.txtManv.Name = "txtManv";
+            this.txtManv.Size = new System.Drawing.Size(199, 20);
+            this.txtManv.TabIndex = 13;
             // 
             // txtMaKH
             // 
@@ -286,6 +286,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txTongTien;
         private System.Windows.Forms.TextBox txtMaKH;
-        private System.Windows.Forms.TextBox txtMaNhanVien;
+        private System.Windows.Forms.TextBox txtManv;
     }
 }

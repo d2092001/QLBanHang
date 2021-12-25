@@ -56,42 +56,39 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1002, 185);
+            this.panel2.Size = new System.Drawing.Size(891, 148);
             this.panel2.TabIndex = 0;
             // 
             // txtLoaiSim
             // 
-            this.txtLoaiSim.Location = new System.Drawing.Point(191, 124);
-            this.txtLoaiSim.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtLoaiSim.Location = new System.Drawing.Point(170, 99);
             this.txtLoaiSim.Name = "txtLoaiSim";
-            this.txtLoaiSim.Size = new System.Drawing.Size(180, 26);
+            this.txtLoaiSim.Size = new System.Drawing.Size(160, 22);
             this.txtLoaiSim.TabIndex = 2;
             // 
             // txtMaSim
             // 
-            this.txtMaSim.Location = new System.Drawing.Point(191, 78);
-            this.txtMaSim.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMaSim.Location = new System.Drawing.Point(170, 62);
             this.txtMaSim.Name = "txtMaSim";
-            this.txtMaSim.Size = new System.Drawing.Size(180, 26);
+            this.txtMaSim.Size = new System.Drawing.Size(160, 22);
             this.txtMaSim.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(98, 128);
+            this.label3.Location = new System.Drawing.Point(87, 102);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 20);
+            this.label3.Size = new System.Drawing.Size(57, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Loại sim";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(107, 84);
+            this.label2.Location = new System.Drawing.Point(95, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 20);
+            this.label2.Size = new System.Drawing.Size(50, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mã sim";
             // 
@@ -100,9 +97,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(356, 11);
+            this.label1.Location = new System.Drawing.Point(316, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(223, 33);
+            this.label1.Size = new System.Drawing.Size(187, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Danh mục loại sim";
             // 
@@ -110,12 +107,11 @@
             // 
             this.dgvLoaiSim.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLoaiSim.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvLoaiSim.Location = new System.Drawing.Point(0, 185);
-            this.dgvLoaiSim.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvLoaiSim.Location = new System.Drawing.Point(0, 148);
             this.dgvLoaiSim.Name = "dgvLoaiSim";
             this.dgvLoaiSim.RowHeadersWidth = 62;
             this.dgvLoaiSim.RowTemplate.Height = 24;
-            this.dgvLoaiSim.Size = new System.Drawing.Size(1002, 393);
+            this.dgvLoaiSim.Size = new System.Drawing.Size(891, 315);
             this.dgvLoaiSim.TabIndex = 1;
             this.dgvLoaiSim.Click += new System.EventHandler(this.dgvLoaiSim_Click);
             // 
@@ -128,18 +124,16 @@
             this.panel1.Controls.Add(this.btnXoa);
             this.panel1.Controls.Add(this.btnThem);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 578);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 463);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1002, 118);
+            this.panel1.Size = new System.Drawing.Size(891, 94);
             this.panel1.TabIndex = 2;
             // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(812, 38);
-            this.btnDong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDong.Location = new System.Drawing.Point(722, 30);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(137, 49);
+            this.btnDong.Size = new System.Drawing.Size(122, 39);
             this.btnDong.TabIndex = 5;
             this.btnDong.Text = "&Đóng";
             this.btnDong.UseVisualStyleBackColor = true;
@@ -147,10 +141,9 @@
             // 
             // btnBoqua
             // 
-            this.btnBoqua.Location = new System.Drawing.Point(668, 38);
-            this.btnBoqua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnBoqua.Location = new System.Drawing.Point(594, 30);
             this.btnBoqua.Name = "btnBoqua";
-            this.btnBoqua.Size = new System.Drawing.Size(137, 49);
+            this.btnBoqua.Size = new System.Drawing.Size(122, 39);
             this.btnBoqua.TabIndex = 4;
             this.btnBoqua.Text = "&Bỏ qua";
             this.btnBoqua.UseVisualStyleBackColor = true;
@@ -158,10 +151,9 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(524, 38);
-            this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLuu.Location = new System.Drawing.Point(466, 30);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(137, 49);
+            this.btnLuu.Size = new System.Drawing.Size(122, 39);
             this.btnLuu.TabIndex = 3;
             this.btnLuu.Text = "&Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
@@ -169,10 +161,9 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(323, 38);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnSua.Location = new System.Drawing.Point(287, 30);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(137, 49);
+            this.btnSua.Size = new System.Drawing.Size(122, 39);
             this.btnSua.TabIndex = 2;
             this.btnSua.Text = "&Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
@@ -180,10 +171,9 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(179, 38);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnXoa.Location = new System.Drawing.Point(159, 30);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(137, 49);
+            this.btnXoa.Size = new System.Drawing.Size(122, 39);
             this.btnXoa.TabIndex = 1;
             this.btnXoa.Text = "&Xoá";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -191,10 +181,9 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(35, 38);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnThem.Location = new System.Drawing.Point(31, 30);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(137, 49);
+            this.btnThem.Size = new System.Drawing.Size(122, 39);
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "&Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -202,13 +191,12 @@
             // 
             // frmDMLoaiSim
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1002, 696);
+            this.ClientSize = new System.Drawing.Size(891, 557);
             this.Controls.Add(this.dgvLoaiSim);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmDMLoaiSim";
             this.Text = "Danh mục loại thẻ sim";
             this.Load += new System.EventHandler(this.frmDMLoaiSim_Load);
